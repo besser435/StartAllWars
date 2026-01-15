@@ -1,0 +1,5 @@
+name: StartAllWars
+version: '1.0-SNAPSHOT'
+main: org.diet.StartAllWars
+api-version: '1.20'
+authors: [ besser ]
