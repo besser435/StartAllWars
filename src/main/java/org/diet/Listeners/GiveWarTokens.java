@@ -34,6 +34,7 @@ public class GiveWarTokens implements Listener {
                 WarTokenUtil.addToken(nation);
             }
 
+            // TODO: BUG! nation.save() does not save the new metadata value. Unless I was stupid and just closed the server too fast.
             nation.save();  // Must be called, or it will not persist across reloads (in this version at least)
 
             log(INFO, "Gave nation war token to " + nation.getName());
