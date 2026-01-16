@@ -1,0 +1,9 @@
+saw:
+  # Enable or disable the plugin.
+  enabled: true
+
+war-tokens:
+  # The maximum number of war tokens a nation can have.
+  max-per-nation: 14
+  # How many tokens it costs for a nation war.
+  nation-war-cost: 14

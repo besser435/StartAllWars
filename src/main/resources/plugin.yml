@@ -1,5 +1,22 @@
 name: StartAllWars
-version: '1.0-SNAPSHOT'
+prefix: SAW
+version: ${project.version}
 main: org.diet.StartAllWars
 api-version: '1.20'
-authors: [ besser ]
+authors: [besser, DIET]
+depend: [Towny]
+softdepend: [DiscordSRV]
+
+website: https://github.com/besser435
+
+
+
+commands:
+  war:
+    description: Main StartAllWars command
+    usage: /<command> <subcommand>
+    aliases: [saw]
+
+  adminwar:
+    description: Administrator command for StartAllWars
+    usage: /<command> <subcommand>
